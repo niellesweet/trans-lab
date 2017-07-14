@@ -50,11 +50,18 @@ span.input-group-addon{
 	font-weight: 700;
 }
 /*FIN ESTILOS HOME*/
+/*ESTILOS NAVBAR*/
+
 .navbar-brand{
-	margin-left: 125px;
+	margin-left: 30px;
 }
-.navbar-nav{
-	background-color: white;
+a.navbar-brand.text-center{
+	color: white;
+	font-weight: 700;
+}
+.navbar-toggle {
+	float: left;
+	margin-left:10px;
 }
 .navbar-toggle .icon-bar {
     display: block;
@@ -62,8 +69,33 @@ span.input-group-addon{
     height: 2px;
     border-radius: 1px;
 }
-.navbar-toggle {
-	float:left;
-	margin-left:10px;
+div#bs-example-navbar-collapse-1.navbar-collapse.collapse.in{
+	background-color: white;
 }
-.input-group #addon-usuario
+.navbar-nav{
+	background-color: white;
+	width: 80%
+}
+.navbar-nav li a{
+	margin-left: 10px;
+}
+.navbar-nav li a i{
+	margin-right: 20px;
+	color: #fcad00;
+}
+/*FIN ESTILOS NAVBAR*/
+/*SECCION MENU*/
+.cuerpo-menu{
+	background-color:#dcdddf; 
+}
+.menu-home .seccion-menu{
+	margin-top: 125px;
+}
+.menu-home button.btn.btn-default{
+	width: 100%;
+	background-color: #fcad00;
+	color: white;
+	margin-top: 10px;
+	padding: 10px;
+}
+/*FIN SECCION MENU*/
