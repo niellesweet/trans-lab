@@ -180,3 +180,34 @@ button#boton-ver-saldo.btn.btn-default{
 	font-size: 6rem;
 	font-weight: 700;
 }
+/*FIN SALDO*/
+/*INICIO PERFIL*/
+.seccion-perfil{
+	background-color: #fcad00;
+}
+header{
+	height: 30vh;
+}
+.foto-perfil .perfil-batman{
+	border-radius: 50%;
+	margin-top: 15px;
+}
+.perfil-usuario{
+	background-color: #dcdddf;
+	min-height: 70vh;
+}
+.perfil-usuario .usuario .correo-usuario{
+	margin-top: 20px;
+	background-color: white;
+}
+.perfil-usuario .usuario .correo-usuario p{
+	margin-top: 7px;
+}
+button#boton-agregar-tarjeta.btn.btn-default{
+	width: 100%;
+	margin-top: 15px;
+	background-color: #fcad00;
+	border: none;
+	color: white;
+}
+/*FIN PERFIL*/
