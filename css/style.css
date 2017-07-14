@@ -211,3 +211,7 @@ button#boton-agregar-tarjeta.btn.btn-default{
 	color: white;
 }
 /*FIN PERFIL*/
+/*INICIO TARIFAS*/
+.cuerpo-tarifa{
+	background-color: #dcdddf;
+}
