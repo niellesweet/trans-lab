@@ -1,1 +1,18 @@
 /* YeyeYeee código aquí */
+.navbar-brand{
+	margin-left: 125px;
+}
+.navbar-nav{
+	background-color: white;
+	color: black;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+.navbar-toggle {
+	float:left;
+	margin-left:10px;
+}
