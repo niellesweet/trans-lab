@@ -11,7 +11,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Asap:400,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
+<body class="saldo">
 	<!--COMIENZO DE NAVBAR-->
 	<nav class="navbar navbar-inverse navbar-default">
   		<div class="container-fluid">
@@ -36,8 +36,50 @@
 			</div>
 		</div>
 	</nav>	
+	<section class="seccion-saldo">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 text-center caja-saldo">
+					<div class="row">
+						<div class="col-xs-12 input-tarjeta">
+							<input class="effect-1" id="input-tarjeta" type="text" placeholder="Ingrese número de tarjeta">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 boton-opciones">
+  					<button type="button" class="btn btn-default dropdown-toggle" id="drop-opciones" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    				Choose your option<span class="caret"></span>
+  					</button>
+  					<ul class="dropdown-menu">
+    					<li><a href="#"></a></li>
+    					<li><a href="#"></a></li>
+    					<li><a href="#"></a></li>
+  					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 col-xs-offset-3 text-center">
+					<button type="button" class="btn btn-default" id="boton-ver-saldo">VER SALDO</button>		
+				</div>
+			</div>
+			<div class="row" id="caja-llenado">
+				<div class="col-xs-10 col-xs-offset-1 text-center saldo-final" id="caja-saldo-final">
+					<div class="row text-center saldo-total">
+						<h4>SALDO TOTAL</h4>
+					</div>
+					<div class="row text-center valor-total">
+						<h1 id="saldo-final-tarj"></h1>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<!-- Bootstrap Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>

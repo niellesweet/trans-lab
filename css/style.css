@@ -137,3 +137,46 @@ ul.tabs li.current{
 .tab-content.current{
 	display: inherit;
 }
+/*FIN FAQ*/
+/*INICIO ESTILOS SALDO*/
+.saldo{
+	background-color: #dcdddf;
+}
+input[type="text"]{
+	color: #333; 
+	width: 100%; 
+	box-sizing: border-box;
+	background-color: #dcdddf;
+	border: none;  
+	border-bottom: 1px solid #2f2f31;
+	margin-top: 20px;
+}
+button#drop-opciones.btn.btn-default.dropdown-toggle{
+	width: 100%;
+	margin-top: 25px;
+}
+button#boton-ver-saldo.btn.btn-default{
+	width: 100%;
+	margin-top: 35px;
+	background-color: #fcad00;
+	border: none;
+	color: white;
+}
+.seccion-saldo .saldo-final{
+	margin-top: 70px;
+}
+.seccion-saldo .saldo-final .saldo-total{
+	background-color: #414143;
+}
+.seccion-saldo .saldo-final .saldo-total h4{
+	color: white;
+}
+.seccion-saldo .saldo-final .valor-total{
+	background-color: #fcad00;
+	height: 20vh;
+}
+.seccion-saldo .saldo-final .valor-total h1{
+	margin-top: 20px;
+	font-size: 6rem;
+	font-weight: 700;
+}
